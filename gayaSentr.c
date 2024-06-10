@@ -1,6 +1,6 @@
 /* Nama         : Gherald Abraham
    NIM          : 24060123140210
-   Kelas        : C
+   Kelas        : A
    Nama Program : gayaSentr.c
    Deskripsi    : Menghitung dan menampilkan hasil dari Gaya Sentral
 */
