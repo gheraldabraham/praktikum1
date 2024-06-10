@@ -1,0 +1,30 @@
+/* Nama         : Gherald Abraham
+   NIM          : 24060123140210
+   Kelas        : A
+   Nama Program : jarakPBola.c
+   Deskripsi    : Menghitung dan menampilkan hasil dari jarak suatu benda yang mengalami gerak parabola
+*/
+
+#include <stdio.h>
+
+int main()
+{
+    //kamus
+    float v0;
+    float t;
+    const float g = 9.8;
+    float y;
+
+    //algoritma
+     printf("Masukkan : \n");
+    printf("v0 =");
+    scanf("%f" , &v0);
+    printf("t = ");
+    scanf("%f" , &t);
+
+    y = v0*t*-0.5*(g*t*t); 
+    printf("y = %.2f \n" , y);
+    printf("Jadi jarak gerak parabolanya adalah %.2f", y);
+    
+    return 0;
+}
